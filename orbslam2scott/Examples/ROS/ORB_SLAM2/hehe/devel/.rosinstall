@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/scott/catkin_ws/src/orb_slam_rgbd/ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/hehe/devel/setup.sh

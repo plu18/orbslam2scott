@@ -1,0 +1,34 @@
+#ifndef TFBROADCASTER_H
+#define TFBROADCASTER_H
+
+
+#include "ros/ros.h"
+#include "KeyFrame.h"
+
+#include <opencv2/core/core.hpp>
+#include <opencv2/features2d/features2d.hpp>
+
+
+
+namespace ORB_SLAM2
+{
+
+class KeyFrame;
+
+class TfBroadcaster{
+
+public:
+
+	TfBroadcaster();
+
+protected:
+
+	int mNH;
+	int mTfPub;
+
+};
+
+} //namespace ORB_SLAM2
+
+
+#endif // TFBROADCASTER_H
